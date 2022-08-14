@@ -30,7 +30,7 @@ const Login = () => {
           'Password is required')
     }),
     onSubmit: () => {
-      router.push('/');
+      router.push('/dashboard');
     }
   });
 

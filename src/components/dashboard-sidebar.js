@@ -7,6 +7,7 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { ChartBar as ChartBarIcon } from '../icons/chart-bar';
 import { Cog as CogIcon } from '../icons/cog';
 import { Lock as LockIcon } from '../icons/lock';
+import { Logout as LogoutIcon } from '../icons/logout';
 import { Selector as SelectorIcon } from '../icons/selector';
 import { ShoppingBag as ShoppingBagIcon } from '../icons/shopping-bag';
 import { User as UserIcon } from '../icons/user';
@@ -57,6 +58,11 @@ const items = [
     icon: (<XCircleIcon fontSize="small" />),
     title: 'Error'
   } */
+  {
+    href: '/',
+    icon: (<LogoutIcon fontSize="small" />),
+    title: 'Logout'
+  },
 ];
 
 export const DashboardSidebar = (props) => {
